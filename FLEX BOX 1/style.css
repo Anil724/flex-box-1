@@ -1,0 +1,222 @@
+h1{
+    font-size: 5rem;
+    color: black;
+    text-align: center; 
+    background-color: aqua; 
+    border-radius: 20px;
+ }
+ h2{
+     font-size: 3rem;
+     color: black;
+ }
+ .row{
+     display: flex;
+     flex-direction: row;
+     width: 500px;
+     height: 500px;
+     background-color: aqua;
+     border: 5px solid rgb(204, 50, 140);
+ }
+ .row-reverse{
+     display: flex;
+     flex-direction: row-reverse;
+     width: 500px;
+     height: 500px;
+     background-color: aqua;
+     border: 5px solid rgb(204, 50, 140);
+ }
+ .column{
+     display: flex;
+     flex-direction: column;
+     width: 500px;
+     height: 500px;
+     background-color: aqua;
+     border: 5px solid rgb(204, 50, 140);
+ }
+ .column-reverse{
+     display: flex;
+     flex-direction: column-reverse;
+     width: 500px;
+     height: 500px;
+     background-color: aqua;
+     border: 5px solid rgb(204, 50, 140);
+ }
+ 
+ .numbers{
+     border: 5px solid black;
+     width: 100px;
+     height: 100px;
+     text-align: center;
+     font-size: 4rem;
+ }
+ 
+ .nowrap{
+     display: flex;
+     flex-wrap: nowrap;
+     width: 500px;
+     height: 500px;
+     background-color: aqua;
+     border: 5px solid rgb(204, 50, 140);
+ }
+ .wrap{
+     display: flex;
+     flex-wrap: wrap;
+     width: 500px;
+     height: 500px;
+     background-color: aqua;
+     border: 5px solid rgb(204, 50, 140);
+ }
+ .wrapReverse{
+     display: flex;
+     flex-wrap: wrap-reverse;
+     width: 500px;
+     height: 500px;
+     background-color: aqua;
+     border: 5px solid rgb(204, 50, 140);
+ }
+ .justifyContentStart{
+     display: flex;
+     justify-content: start;
+     width: 500px;
+     height: 500px;
+     background-color: aqua;
+     border: 5px solid rgb(204, 50, 140);
+ }
+ .justifyContentCenter{
+     display: flex;
+     justify-content: center;
+     width: 500px;
+     height: 500px;
+     background-color: aqua;
+     border: 5px solid rgb(204, 50, 140);
+ }
+ .justifyContentEnd{
+     display: flex;
+     justify-content: end;
+     width: 500px;
+     height: 500px;
+     background-color: aqua;
+     border: 5px solid rgb(204, 50, 140);
+ }
+ .alignItemStart{
+     display: flex;
+     align-items: start;
+     width: 500px;
+     height: 500px;
+     background-color: aqua;
+     border: 5px solid rgb(204, 50, 140);
+ }
+ .alignItemCenter{
+     display: flex;
+     align-items: center;
+     width: 500px;
+     height: 500px;
+     background-color: aqua;
+     border: 5px solid rgb(204, 50, 140);
+ }
+ .alignItemEnd{
+     display: flex;
+     align-items: end;
+     width: 500px;
+     height: 500px;
+     background-color: aqua;
+     border: 5px solid rgb(204, 50, 140);
+ }
+ .rowCenterCenter{
+     display: flex;
+     flex-direction: row;
+     justify-items: center;
+     align-items: center;
+     width: 1400px;
+     height: 1000px;
+     background-color: aqua;
+     border: 5px solid rgb(204, 50, 140);
+ }
+ .columnCenterCenter{
+     display: flex;
+     flex-direction: column;
+     justify-items: center;
+     align-items: center;
+     width: 1400px;
+     height: 1000px;
+     background-color: aqua;
+     border: 5px solid rgb(204, 50, 140);
+ }
+ .rowEndStart{
+     display: flex;
+     flex-direction: row;
+     justify-items: end;
+     align-items: start;
+     width: 1400px;
+     height: 1000px;
+     background-color: aqua;
+     border: 5px solid rgb(204, 50, 140);
+ }
+ .columnCenterEnd{
+     display: flex;
+     flex-direction: column;
+     justify-items: center;
+     align-items: end;
+     width: 1400px;
+     height: 1000px;
+     background-color: aqua;
+     border: 5px solid rgb(204, 50, 140);
+ }
+ .rowEndEnd{
+    display: flex;
+    flex-direction: row;
+    justify-items: end;
+    align-items: end;
+    width: 1400px;
+    height: 1000px;
+    background-color: aqua;
+    border: 5px solid rgb(204, 50, 140);
+}
+.columnEndEnd{
+    display: flex;
+    flex-direction: column;
+    justify-items: end;
+    align-items: end;
+    width: 1400px;
+    height: 1000px;
+    background-color: aqua;
+    border: 5px solid rgb(204, 50, 140);
+}
+ @media only screen  and (min-width: 1px) and (max-width:300px){
+    
+    body{
+         background-color: blueviolet;
+     }
+ }
+ @media only screen  and (min-width: 301px) and (max-width:576px){
+    
+     body{
+          background-color: red;
+      }
+ }
+ @media only screen  and (min-width: 577px) and (max-width:800px){
+    
+     body{
+          background-color: blue;
+      }
+ }
+ @media only screen  and (min-width: 801px) and (max-width:1000px){
+    
+     body{
+          background-color: green;
+      }
+ }
+ @media only screen  and (min-width: 1001px) and (max-width:1200px){
+    
+     body{
+          background-color: yellow;
+      }
+ }
+ @media only screen  and (min-width: 1201px) and (max-width:1550px){
+    
+     body{
+          background-color: white;
+      }
+ }
+ 
+ 
